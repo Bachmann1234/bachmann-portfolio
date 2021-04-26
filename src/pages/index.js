@@ -5,11 +5,15 @@ import "@fontsource/space-mono"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import resume from './Bachmann_Resume.pdf'
+import favicon from '../images/favicon.ico'
 import '../styles/global.scss'
 
 const IndexPage = () => {
   return (
     <>
+    <head>
+        <link rel="icon" href={favicon} />
+    </head>
     <title>Matt Bachmann</title> 
       <header>
         <div>
