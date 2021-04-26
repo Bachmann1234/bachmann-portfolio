@@ -20,11 +20,11 @@ const IndexPage = () => {
           <h1>
             Matt Bachmann
           </h1>
-          <StaticImage src="../images/bach.png" width={200} alt="me!" loading="eager">
-          </StaticImage>
           <h2>
             Software Engineer, curious maker 
           </h2>
+          <StaticImage src="../images/bach.png" width={200} alt="me!" loading="eager">
+          </StaticImage>
           <p>
             Howdy! Welcome to my project portfolio.
           </p>
