@@ -1,14 +1,4 @@
-:root {
-  --main-text-color: #13c4a3;
-  --highlight-text-color: #f90093;
-}
-
-html {
-  background: #04151f;
-  padding: 96;
-  font-family: 'Space Mono';
-  color: var(--main-text-color);
-}
+@use 'global.scss';
 
 h1,
 h2 {
@@ -28,19 +18,6 @@ main {
   align-items: center;
   justify-content: center;
   margin: 50px;
-}
-
-.social {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.social > * {
-  padding: 10px;
-}
-
-a {
-  color: #13c4a3;
 }
 
 @keyframes flicker {
@@ -66,4 +43,13 @@ a {
     text-shadow: none;
     box-shadow: none;
   }
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social > * {
+  padding: 10px;
 }
