@@ -6,7 +6,6 @@ module.exports = {
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
-    'gatsby-plugin-mdx',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-fontawesome-css',

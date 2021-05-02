@@ -10,60 +10,6 @@ html {
   color: var(--main-text-color);
 }
 
-h1,
-h2 {
-  font-family: 'Bungee';
-  color: var(--highlight-text-color);
-  animation: flicker 10s ease infinite alternate;
-}
-
-header {
-  display: grid;
-  grid-template-columns: 1;
-  align-items: center;
-  text-align: center;
-}
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px;
-}
-
-.social {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.social > * {
-  padding: 10px;
-}
-
 a {
   color: #13c4a3;
-}
-
-@keyframes flicker {
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff,
-      0 0 4rem var(--highlight-text-color), 0 0 6rem var(--highlight-text-color),
-      0 0 8rem var(--highlight-text-color), 0 0 10rem var(--highlight-text-color);
-
-    box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff, 0 0 2rem var(--main-text-color),
-      inset 0 0 2rem var(--main-text-color), 0 0 4rem var(--main-text-color),
-      inset 0 0 4rem var(--main-text-color);
-  }
-
-  20%,
-  24% {
-    text-shadow: none;
-    box-shadow: none;
-  }
 }
