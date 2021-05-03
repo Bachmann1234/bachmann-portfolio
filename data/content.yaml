@@ -1,0 +1,8 @@
+- title: Electronics Projects
+  projects:
+    - name: Sit Stand Timer
+      description: A dual timer that detects the height of my desk with sonar and tracks of often I am standing vs sitting
+      github: https://github.com/Bachmann1234/Electronics-Drawer/tree/main/sitstandtimer
+      images:
+        - alt: The finished timer box
+          file: images/projects/sitstand.jpg

@@ -4,21 +4,17 @@ import '@fontsource/bungee';
 import '@fontsource/space-mono';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import resume from './Bachmann_Resume.pdf';
-import favicon from '../images/favicon.ico';
+import resume from '../../data/Bachmann_Resume.pdf';
 import '../styles/index.scss';
 
 const IndexPage = () => (
   <>
-    <head>
-      <link rel="icon" href={favicon} />
-    </head>
     <title>Matt Bachmann</title>
     <header>
       <div>
         <h1>Matt Bachmann</h1>
         <h2>Software Engineer, curious maker</h2>
-        <StaticImage src="../images/bach.png" width={200} alt="me!" loading="eager" />
+        <StaticImage src="../../data/images/bach.png" width={200} alt="me!" loading="eager" />
         <p>Howdy! Welcome to my project portfolio.</p>
       </div>
     </header>

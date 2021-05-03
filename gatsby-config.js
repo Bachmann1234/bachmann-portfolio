@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Bachmann Portfolio',
+    title: 'Bachmann Portfolio'
   },
   plugins: [
     'gatsby-plugin-netlify-cms',
@@ -9,21 +9,30 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-fontawesome-css',
+    `gatsby-transformer-yaml`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/data/`
+      },
+      __key: 'data'
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: './src/images/',
+        path: `${__dirname}/data/images/`
       },
-      __key: 'images',
+      __key: 'images'
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: './src/pages/',
+        path: `${__dirname}/src/pages/`
       },
-      __key: 'pages',
+      __key: 'pages'
     },
     {
       resolve: 'gatsby-plugin-prettier-eslint',
@@ -36,17 +45,17 @@ module.exports = {
             '**/*.{graphql}',
             '**/*.{md,mdx}',
             '**/*.{html}',
-            '**/*.{yaml,yml}',
-          ],
+            '**/*.{yaml,yml}'
+          ]
         },
         eslint: {
           patterns: '**/*.{js,jsx,ts,tsx}',
           customOptions: {
             fix: true,
-            cache: true,
-          },
-        },
-      },
-    },
-  ],
+            cache: true
+          }
+        }
+      }
+    }
+  ]
 };
