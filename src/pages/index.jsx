@@ -5,7 +5,7 @@ import '@fontsource/space-mono';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import resume from '../../data/Bachmann_Resume.pdf';
-import '../styles/index.scss';
+import * as styles from '../styles/index.module.css';
 
 const IndexPage = () => (
   <>
@@ -26,7 +26,7 @@ const IndexPage = () => (
       <a href={resume}>Resume</a>
     </main>
     <footer>
-      <div className="social">
+      <div class={styles.social}>
         <a href="https://github.com/Bachmann1234">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
