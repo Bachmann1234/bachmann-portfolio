@@ -11,7 +11,6 @@ const ElectronicsProjectsPage = ({ data }) => {
       <ul>
         {projects.map(({ name, description, github, images }) => (
           <li key={name}>
-            
             <h2>{name}</h2>
             <a href={github}>Source on Github</a>
             <p>{description}</p>

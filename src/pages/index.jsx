@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 import '@fontsource/bungee';
 import '@fontsource/space-mono';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -24,6 +25,7 @@ const IndexPage = () => (
       {/* Pens/turning projects */}
       {/* Conference Talks */}
       <a href={resume}>Resume</a>
+      <Link to="/electronicsProjects/">Electronics Projects</Link>
     </main>
     <footer>
       <div class={styles.social}>

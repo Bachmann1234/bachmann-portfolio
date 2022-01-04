@@ -13,3 +13,9 @@ html {
 a {
   color: #13c4a3;
 }
+
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
