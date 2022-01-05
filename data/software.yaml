@@ -1,0 +1,20 @@
+- title: Software Projects 
+  projects:
+    - name: Diff-Cover 
+      description: Automatically find diff lines that need test coverage. Also finds diff lines that have violations (according to tools such as pycodestyle, pyflakes, flake8, or pylint). This is used as a code quality metric during code reviews.
+      github: https://github.com/Bachmann1234/diff_cover
+      images:
+        - alt: Black and White
+          file: images/projects/b.png
+    - name: Massachusetts General Court Reporter
+      description: Tweets bills put in front of the Massachusetts Legislature 
+      github: https://github.com/Bachmann1234/MACourtReporter
+      images:
+        - alt: Massachusetts General Court Reporter Twitter Page
+          file: images/projects/maCourtReporter.png
+    - name: Web Dev Concept of the day
+      description: Tweets a CSS and HTML concept from mozilla documentation every day
+      github: https://github.com/Bachmann1234/WebDevOfTheDay
+      images:
+        - alt: Web Dev Of The Day Twitter Page 
+          file: images/projects/webDevOfTheDay.png

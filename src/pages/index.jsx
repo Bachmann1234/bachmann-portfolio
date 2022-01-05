@@ -21,11 +21,11 @@ const IndexPage = () => (
     </header>
     <main>
       {/* Software Projects */}
-      {/* Electronics Projects */}
       {/* Pens/turning projects */}
       {/* Conference Talks */}
       <a href={resume}>Resume</a>
       <Link to="/electronicsProjects/">Electronics Projects</Link>
+      <Link to="/softwareProjects/">Software Projects</Link>
     </main>
     <footer>
       <div class={styles.social}>

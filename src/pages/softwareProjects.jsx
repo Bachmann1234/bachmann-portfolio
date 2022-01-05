@@ -2,9 +2,9 @@ import React from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { graphql } from 'gatsby';
 
-const ElectronicsProjectsPage = ({ data }) => {
-  const { electronicsYaml } = data;
-  const { title, projects } = electronicsYaml;
+const SoftwareProjectsPage = ({ data }) => {
+  const { softwareYaml } = data;
+  const { title, projects } = softwareYaml;
   return (
     <>
       <h1>{title}</h1>
@@ -26,7 +26,7 @@ const ElectronicsProjectsPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    electronicsYaml {
+    softwareYaml {
       title
       projects {
         name
@@ -36,7 +36,7 @@ export const query = graphql`
           alt
           file {
             childImageSharp {
-              gatsbyImageData(width: 800)
+              gatsbyImageData
             }
           }
         }
@@ -45,4 +45,4 @@ export const query = graphql`
   }
 `;
 
-export default ElectronicsProjectsPage;
+export default SoftwareProjectsPage;
