@@ -6,3 +6,15 @@
       images:
         - alt: The finished timer box
           file: images/projects/sitstand.jpg
+        - alt: Bottom of the box. Showing the pause button and sonar sensor
+          file: images/projects/sitstand2.jpg
+        - alt: Showing off the internals
+          file: images/projects/sitstand3.jpg
+    - name: E-Ink Art Display 
+      description: Displays random art from reddit, deviantart, and the metropolitan museum of art 
+      github: https://github.com/Bachmann1234/Electronics-Drawer/tree/main/sitstandtimer
+      images:
+        - alt: Black and White
+          file: images/projects/artdisplay.jpg
+        - alt: Color E-Ink Screen
+          file: images/projects/artdisplay2.jpg
